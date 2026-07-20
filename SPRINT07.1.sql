@@ -251,4 +251,4 @@ ADD IdFuncionario SMALLINT NULL
     CONSTRAINT fk_funcionario_VE FOREIGN KEY (IdFuncionario)
     REFERENCES Funcionario (IdFuncionario)
 
-    select * from Funcionario
+    select NomeFuncionario from Funcionario
